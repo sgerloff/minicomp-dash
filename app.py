@@ -20,7 +20,7 @@ df["Date"] = df.index
 
 # Initialize App
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
-
+server = app.server
 
 # Generate Plot from Slider and Dropdown input:
 @app.callback(Output('timeseries', 'figure'),

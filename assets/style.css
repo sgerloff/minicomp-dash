@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    margin: auto;
+    position: absolute;
+    width: 28cm;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.menu-container{
+    background-color: #FAFAFA;
+    width: 8cm;
+}
+
+.plot-container{
+    width: 100%;
+    overflow: hidden;
+}
+
+.description{
+    margin: 0.25cm;
+}
+
+.data-selection{
+    margin: 0.25cm;
+}
+
+.div-for-options{
+    margin: 0.25cm;
+}
+
+.menu-description{
+    font-weight: bold;
+}
